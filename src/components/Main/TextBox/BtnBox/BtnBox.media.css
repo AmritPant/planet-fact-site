@@ -62,6 +62,7 @@
   .btn {
     border: none;
     height: 8rem;
+    width: 13.8rem;
   }
 
   .btn:not(:last-child) {
@@ -72,10 +73,6 @@
   .btn:hover {
     background-color: transparent;
   }
-  .btn:last-of-type {
-    margin-right: -20px;
-  }
-
   .section-home__span-button {
     display: none;
   }
@@ -88,11 +85,11 @@
 
   .section-home__span-mobile {
     display: inline-block;
+    position: relative;
     font-size: 9px;
     letter-spacing: 1.93px;
     align-self: center;
-    margin-top: 10px;
-    height: 100%;
+    margin-top: 0.5px;
   }
 
   /* Mercury */
@@ -100,48 +97,54 @@
     background-color: transparent;
     border: none;
     border-bottom: 4px solid var(--color-mercury);
-    overflow: hidden;
   }
 
   /* venus */
   .btn-active-venus {
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid var(--color-venus);
   }
 
   /* earth */
   .btn-active-earth {
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid var(--color-earth);
   }
 
   /* mars */
   .btn-active-mars {
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid var(--color-mars);
   }
 
   /* jupitar */
   .btn-active-jupiter {
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid var(--color-jupiter);
   }
 
   /* saturn */
   .btn-active-saturn {
     background-color: transparent;
-    border: varnone;
+    border: none;
+    border-bottom: 4px solid var(--color-saturn);
   }
 
   /* uranus */
   .btn-active-uranus {
     background-color: transparent;
     border: varnone;
+    border-bottom: 4px solid var(--color-uranus);
   }
 
   /* neptune */
   .btn-active-neptune {
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid var(--color-neptune);
   }
 }

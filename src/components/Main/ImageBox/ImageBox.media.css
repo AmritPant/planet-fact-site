@@ -131,4 +131,9 @@
   .section-home__img-box {
     margin-top: 14rem;
   }
+
+  .section-home__img-extra {
+    height: 10rem;
+    width: 9rem;
+  }
 }

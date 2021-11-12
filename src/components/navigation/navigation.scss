@@ -28,6 +28,7 @@
     border: none;
     cursor: pointer;
     height: 100%;
+    transition: all 0.3s;
 
     &:not(:last-child) {
       position: fixed;
@@ -61,4 +62,8 @@
   text-transform: uppercase;
   padding: 1.3rem 0;
   display: inline-block;
+}
+
+.navigation__icon-arrow {
+  display: none;
 }

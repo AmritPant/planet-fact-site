@@ -37,11 +37,6 @@
   display: none;
 }
 
-.btn-noActive {
-  background-color: transparent;
-  border: 1px solid #393950;
-}
-
 /* Mercury */
 .btn-active-mercury {
   background-color: var(--color-mercury);

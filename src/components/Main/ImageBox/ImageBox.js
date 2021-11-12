@@ -5,7 +5,6 @@ import "./ImageBox.media.css";
 const Image = function (props) {
   // Passed curImg property same as the source Attribute
   // Concating Src to the curImg to make it work.
-  console.log(props.curPlanet);
 
   const srcName = props.curImg.concat("Src");
   return (

@@ -85,6 +85,7 @@ const BtnBox = function (props) {
           >
             <span className="section-home__span-button">{btn.index}</span>
             <span className="section-home__span-normal">{btn.btnFullName}</span>
+            {/* Below Span is only for the Mobile */}
             <span className="section-home__span-normal section-home__span-mobile">
               {btn.nameMobile}
             </span>

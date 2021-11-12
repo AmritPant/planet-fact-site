@@ -62,4 +62,19 @@
     --height-uranus: 42.8rem;
     --height-neptune: 43rem;
   }
+
+  @media screen and (max-width: 375px) {
+    :root {
+      /* Height and width are same */
+      /* Height and width  of planet */
+      --height-mercury: 111px;
+      --height-venus: 154px;
+      --height-earth: 173px;
+      --height-mars: 129px;
+      --height-jupiter: 224px;
+      --height-saturn: 159.88px;
+      --height-uranus: 176px;
+      --height-neptune: 173px;
+    }
+  }
 }

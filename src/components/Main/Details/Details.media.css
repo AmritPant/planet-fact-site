@@ -87,12 +87,12 @@
   }
 
   .section-details__box {
-    width: 100%;
+    width: calc(100% - 25px);
     margin: 0 auto;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    padding: 1rem 3px;
+    padding: 1rem 10px;
     box-sizing: content-box;
   }
 
