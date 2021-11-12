@@ -1,0 +1,65 @@
+/* Decreasing the html , font-size value so we can decrease the value of rem */
+@media screen and (max-width: 1160px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 33%;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------Changing-the-value---------- */
+/*--------------------------------------------*/
+
+@media screen and (max-width: 1330px) {
+  :root {
+    --height-jupiter: 50rem;
+    --height-saturn: 60rem;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  :root {
+    --height-jupiter: 45rem;
+    --height-saturn: 55rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --height-jupiter: 40rem;
+    --height-saturn: 50rem;
+    --height-venus: 38rem;
+    --height-earth: 43rem;
+    --height-uranus: 42.8rem;
+    --height-neptune: 43rem;
+  }
+}

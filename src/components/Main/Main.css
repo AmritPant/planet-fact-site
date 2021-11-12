@@ -1,0 +1,17 @@
+.main {
+  padding: 6rem 11.5rem;
+}
+
+.section-home {
+  padding-top: 10rem;
+}
+
+.section-home {
+  margin-right: auto;
+  display: flex;
+}
+
+.section-home__img-box {
+  margin: 0 auto;
+  align-self: center;
+}

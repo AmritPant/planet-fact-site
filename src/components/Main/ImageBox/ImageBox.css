@@ -1,0 +1,122 @@
+.section-home__img-box {
+  margin: 0 auto;
+  align-self: center;
+  position: relative;
+}
+
+/* ---------------------------------------------------- */
+/* --------------------Main Image styling--------------*/
+/* -------------------------------------------------- */
+
+/* Mercury  */
+.section-home__img--mercury {
+  height: var(--height-mercury);
+  width: var(--height-mercury);
+}
+
+/* venus  */
+.section-home__img--venus {
+  height: var(--height-venus);
+  width: var(--height-venus);
+  margin-top: -2rem;
+}
+
+/* earth  */
+.section-home__img--earth {
+  height: var(--height-earth);
+  width: var(--height-earth);
+  margin-top: -3.5rem;
+}
+
+/* mars  */
+.section-home__img--mars {
+  height: var(--height-mars);
+  width: var(--height-mars);
+  margin-top: -1.5rem;
+}
+
+/* jupiter  */
+.section-home__img--jupiter {
+  height: var(--height-jupiter);
+  width: var(--height-jupiter);
+  margin-top: -8.5rem;
+}
+
+/* saturn */
+.section-home__img--saturn {
+  height: var(--height-saturn);
+  width: var(--height-saturn);
+  margin-top: -9rem;
+}
+
+/* uranus  */
+.section-home__img--uranus {
+  height: var(--height-uranus);
+  width: var(--height-uranus);
+  margin-top: -8.5rem;
+}
+
+/* Neptune  */
+.section-home__img--neptune {
+  height: var(--height-neptune);
+  width: var(--height-neptune);
+  margin-top: -8.5rem;
+}
+
+/* ---------------------------------------------------- */
+/* --------------------Extra Image styling--------------*/
+/* -------------------------------------------------- */
+
+.section-home__img-extra {
+  height: 20rem;
+  width: 16rem;
+  position: absolute;
+}
+
+/* mercury */
+.section-home__img-extra--mercury {
+  left: 25%;
+  bottom: -50%;
+}
+
+/* Venus */
+.section-home__img-extra--venus {
+  left: 30%;
+  bottom: -25%;
+}
+
+/* Earth */
+.section-home__img-extra--earth {
+  left: 33%;
+  bottom: -24%;
+}
+
+/* Mars */
+.section-home__img-extra--mars {
+  left: 27%;
+  bottom: -44%;
+}
+
+/* Jupitar */
+.section-home__img-extra--jupiter {
+  left: 35.5%;
+  bottom: -15%;
+}
+
+/* saturn */
+.section-home__img-extra--saturn {
+  left: 38%;
+  bottom: -1%;
+}
+
+/* Uranus */
+.section-home__img-extra--uranus {
+  left: 33%;
+  bottom: -24%;
+}
+
+/* Neptune */
+.section-home__img-extra--neptune {
+  left: 32%;
+  bottom: -22%;
+}

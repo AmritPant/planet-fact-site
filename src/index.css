@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600&family=Spartan:wght@100;200;300;400;500;600;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Spartan";
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-white);
+  background-color: var(--color-background);
+}
+
+/*  Css custom Variables or properties */
+:root {
+  /* // Main Color */
+  --color-background: #070724;
+  --color-mercury: #419ebb;
+  --color-venus: #eda249;
+  --color-earth: #6f2ed6;
+  --color-mars: #d14c32;
+  --color-jupiter: #d83a34;
+  --color-saturn: #cd5120;
+  --color-uranus: #1ec2a4;
+  --color-neptune: #2d68f0;
+  --color-superDark: rgb(7, 7, 36);
+
+  /* // Secondary Color */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey-light: #838391;
+  --color-grey-dark: #38384f;
+  /* //  Gradients */
+
+  /* Height and width are same */
+  /* Height and width  of planet */
+  --height-mercury: 29rem;
+  --height-venus: 40rem;
+  --height-earth: 45rem;
+  --height-mars: 33.6rem;
+  --height-jupiter: 56.2rem;
+  --height-saturn: 66.6rem;
+  --height-uranus: 45.8rem;
+  --height-neptune: 45rem;
+}

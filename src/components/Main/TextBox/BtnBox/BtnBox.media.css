@@ -1,0 +1,147 @@
+/* ---------------------------------------------------- */
+/* --------------------1000px---------------------------*/
+/* -------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .section-home__span-normal {
+    margin-left: 3rem;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------900px---------------------------*/
+/* -------------------------------------------------- */
+@media screen and (max-width: 900px) {
+  .section-home__span-normal {
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------580px---------------------------*/
+/* -------------------------------------------------- */
+@media screen and (max-width: 580px) {
+  .section-home__span-normal {
+    font-size: 1.3rem;
+  }
+  .section-home__span-button {
+    font-size: 1rem;
+  }
+  .btn {
+    width: 35rem;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------540px---------------------------*/
+/* -------------------------------------------------- */
+@media screen and (max-width: 540px) {
+  .section-home__span-normal {
+    font-size: 1.1rem;
+  }
+  .btn {
+    width: 28rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* --------------------400px---------------------------*/
+/* -------------------------------------------------- */
+@media only screen and (max-width: 400px) {
+  .btn {
+    width: 26rem;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------375px---------- */
+/*--------------------------------------------*/
+
+@media screen and (max-width: 375px) {
+  .btn {
+    border: none;
+    height: 8rem;
+  }
+
+  .btn:not(:last-child) {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+  }
+  .btn:last-of-type {
+    margin-right: -20px;
+  }
+
+  .section-home__span-button {
+    display: none;
+  }
+
+  .section-home__span-normal {
+    display: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-home__span-mobile {
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 1.93px;
+    align-self: center;
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  /* Mercury */
+  .btn-active-mercury {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid var(--color-mercury);
+    overflow: hidden;
+  }
+
+  /* venus */
+  .btn-active-venus {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* earth */
+  .btn-active-earth {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* mars */
+  .btn-active-mars {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* jupitar */
+  .btn-active-jupiter {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* saturn */
+  .btn-active-saturn {
+    background-color: transparent;
+    border: varnone;
+  }
+
+  /* uranus */
+  .btn-active-uranus {
+    background-color: transparent;
+    border: varnone;
+  }
+
+  /* neptune */
+  .btn-active-neptune {
+    background-color: transparent;
+    border: none;
+  }
+}

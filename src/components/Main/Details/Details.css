@@ -1,0 +1,47 @@
+.section-details {
+  margin-top: 12rem;
+  display: flex;
+}
+
+.section-details__details-box {
+  display: flex;
+  width: 100%;
+}
+
+.section-details__box {
+  width: 22.5rem;
+  height: 8.8rem;
+  padding: 2rem 0;
+  padding-left: 2.5rem;
+  border: 1px solid var(--color-grey-dark);
+}
+
+.section-details__box:not(:first-child) {
+  margin-left: auto;
+}
+
+/* -------------------------------------- */
+.section-details__detail {
+  font-size: 3rem;
+}
+
+.section-details:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.section-details__detail {
+  font-family: "Antonio";
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+}
+
+.heading-tertiary {
+  color: var(--color-grey-light);
+  font-family: "Spartan";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* ///////////////////////////////////////////////// */

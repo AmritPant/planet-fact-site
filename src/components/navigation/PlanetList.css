@@ -1,0 +1,6 @@
+.navigation__item {
+  list-style: none;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 3.3rem;
+}

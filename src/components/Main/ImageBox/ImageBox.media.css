@@ -1,0 +1,134 @@
+/*--------------------------------------------*/
+/* -------------1330px------------------------ */
+/*--------------------------------------------*/
+@media screen and (max-width: 1330px) {
+  .section-home__img-extra--jupiter {
+    left: 32.5%;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .section-home__img-extra--saturn {
+    left: 36.5%;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------1270px------------------------ */
+/*--------------------------------------------*/
+@media screen and (max-width: 1270px) {
+  .section-home__img-extra--saturn {
+    left: 35.5%;
+    bottom: -5%;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------1000px------------------------ */
+/*--------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+  .section-home__img-extra {
+    height: 18rem;
+    width: 14.5rem;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------800px------------------------ */
+/*--------------------------------------------*/
+@media screen and (max-width: 800px) {
+  .section-home__img-extra--saturn {
+    left: 34%;
+    bottom: -10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-home__img-extra--jupiter {
+    left: 30%;
+    bottom: -20%;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------768px------------------------ */
+/*--------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+  /* ----------Image Box------------ */
+  .section-home__img-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16rem;
+  }
+  /* -------------Images--------- */
+  .section-home__img--jupiter {
+    margin-top: 0;
+  }
+  .section-home__img--saturn {
+    margin-top: 0;
+  }
+  .section-home__img--uranus {
+    margin-top: 0;
+  }
+  .section-home__img--venus {
+    margin-top: 0;
+  }
+
+  .section-home__img--neptune {
+    margin-top: 0;
+  }
+  .section-home__img--earth {
+    margin-top: 0;
+  }
+  .section-home__img--mars {
+    margin-top: 0;
+  }
+
+  /*-----------------------------------*/
+  /* -------------Extra-Image--------- */
+  .section-home__img-extra {
+    height: 14rem;
+    width: 11.5rem;
+  }
+  /* -------------Extra-Images--------- */
+  .section-home__img-extra--mercury {
+    left: 43%;
+    bottom: -35%;
+  }
+
+  .section-home__img-extra--venus {
+    left: 42.5%;
+  }
+  .section-home__img-extra--earth {
+    left: 42.5%;
+  }
+  .section-home__img-extra--mars {
+    left: 42%;
+    bottom: -34%;
+  }
+  .section-home__img-extra--jupiter {
+    left: 42%;
+    bottom: -20%;
+  }
+  .section-home__img-extra--saturn {
+    left: 42%;
+    bottom: 0;
+  }
+  .section-home__img-extra--uranus {
+    left: 42.5%;
+  }
+  .section-home__img-extra--neptune {
+    left: 40.5%;
+  }
+}
+
+/*--------------------------------------------*/
+/* -------------375px------------------------- */
+/*--------------------------------------------*/
+
+@media screen and (max-width: 375px) {
+  .section-home__img-box {
+    margin-top: 14rem;
+  }
+}
